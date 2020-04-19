@@ -9,8 +9,12 @@ void setup() {
 
 void draw() {
   stroke(128);
+  translate(50,50);
   rotate(x);
+//  translate(-50,-50);
+  line(50,50,100,100);
+
+  
   x += 0.1;
-  line(0,0,100,100);
   
 }
